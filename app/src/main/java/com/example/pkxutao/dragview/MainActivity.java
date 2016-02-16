@@ -12,7 +12,6 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        TouchImageView iv = new TouchImageView(this);
         setContentView(R.layout.activity_main);
 
         iv = (MyImageView) findViewById(R.id.iv);
